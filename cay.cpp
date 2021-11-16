@@ -48,7 +48,13 @@ void BinaryTree::preOrder(Node* root) {
         preOrder(root->right);
     }
 }
-
+/ *
+    ho te: Nguyen Thi Quynh Quyen
+    MSSV: 6151071091
+    Ngày Sinh: 20/10/2002
+    Email: 6151071091
+    4.	Tìm nút có giá trị là X.
+* /
 Item BinaryTree::search(Node* root, Item v) {
     if (root == NULL)
         return NULL;
