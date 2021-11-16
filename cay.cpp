@@ -48,6 +48,7 @@ void BinaryTree::preOrder(Node* root) {
         preOrder(root->right);
     }
 }
+
 Item BinaryTree::search(Node* root, Item v) {
     if (root == NULL)
         return NULL;
