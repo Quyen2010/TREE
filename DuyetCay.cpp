@@ -40,7 +40,13 @@ Node* BST::createNode(Item v) {
     p->left = p->right = NULL;
     return p;
 }
-
+/*
+    ho te: Nguyen Thi Quynh Quyen
+    MSSV: 6151071091
+    Ngay Sinh: 20/10/2002
+    Email: 6151071091
+   3.	Duyệt cây theo thứ tự trước, thứ tự giữa, và thứ tự sau.
+*/
 Node* BST::insert(Node* root, Item v) {
     if (isEmpty()) {
         root = createNode(v);
@@ -83,7 +89,13 @@ Node* BST::remove(Node*& root, int v) {
     }
     return root;
 }
-
+/*
+    ho te: Nguyen Thi Quynh Quyen
+    MSSV: 6151071091
+    Ngay Sinh: 20/10/2002
+    Email: 6151071091
+   3.	Duyệt cây theo thứ tự trước, thứ tự giữa, và thứ tự sau.
+*/
 void BST::preOrder(Node* root) {
     if (root != NULL) {
         cout << root->data << "\t";
