@@ -43,7 +43,14 @@ Tree::Tree(Item v) {
 bool Tree::isEmpty() {
     return (root == NULL);
 }
-
+/*
+    ho te: Nguyen Thi Quynh Quyen
+    MSSV: 6151071091
+    Ngay Sinh: 20/10/2002
+    Email: 6151071091
+    1.	Cài đặt cấu trúc dữ liệu 
+    cây nhị phân với các thao tác đã được học trên lớp.
+*/
 Node* Tree::createNode(Item v) {
     Node* p = new Node;
     p->data = v;
@@ -51,11 +58,6 @@ Node* Tree::createNode(Item v) {
     p->right = NULL;
     return p;
 }
-
-bool Tree::isEmpty() {
-    return (root == NULL);
-}
-
 Node* Tree::insert(Node* root, Item v) {
     if (root == NULL) {
         root = createNode(v);
