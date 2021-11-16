@@ -44,12 +44,11 @@ bool Tree::isEmpty() {
     return (root == NULL);
 }
 /*
-    ho te: Nguyen Thi Quynh Quyen
+    ho ten: Nguyen Thi Quynh Quyen
     MSSV: 6151071091
     Ngay Sinh: 20/10/2002
     Email: 6151071091
-    1.	Cài đặt cấu trúc dữ liệu 
-    cây nhị phân với các thao tác đã được học trên lớp.
+    2.	Tạo một cây nhị phân gồm n nút, mỗi nút lưu một phần tử của một mảng số nguyên cho trước. 
 */
 Node* Tree::createNode(Item v) {
     Node* p = new Node;
