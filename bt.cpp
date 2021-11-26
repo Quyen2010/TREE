@@ -161,11 +161,23 @@ void quickSort(singleList& list) {
     *headRef = quickSortRecur(*headRef, getTail(*headRef));
     return;
 }
-
 // ten: nguyen thi quynh quyen
 // MSSV: 6151071091
 // Ngay sinh: 20/10/2002
 // Email: 6151071091@st.utc2.edu.vn
+Node* linearSearch(singleList list, int f) {
+    Node* pTmp = list.pHead;
+    while (pTmp != NULL) {
+        if (pTmp->data == f) break;
+        pTmp = pTmp->pNext;
+    }
+    return pTmp;
+}
+// ten: nguyen thi quynh quyen
+// MSSV: 6151071091
+// Ngay sinh: 20/10/2002
+// Email: 6151071091@st.utc2.edu.vn
+//ham main
 int main() {
     singleList list;
     Initialize(list);
