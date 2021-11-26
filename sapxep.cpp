@@ -35,6 +35,13 @@ void SelectionSort(int a[], int n) {
 		}
 	}
 }
+/*
+	ten: nguyen thi quynh quyen 
+	mssv: 6151071091
+	ngay sinh: 20/10/2002
+	Email: 6151071091@st.utc2.edu.vn
+	sap xep chen , sap xep nhanh 
+*/
 void InsertionSort(int a[], int n) {
 	for (int i = 1; i < n; i++) {
 		int x = a[i];
@@ -65,6 +72,13 @@ void QuickSort(int a[], int left, int right) {
 	if (right > i)
 		QuickSort(a, i, right);
 }
+/*
+	ten: nguyen thi quynh quyen 
+	mssv: 6151071091
+	ngay sinh: 20/10/2002
+	Email: 6151071091@st.utc2.edu.vn
+	tim kiem tuyen tinh , tim kiem nhi phan
+*/
 int linearSearch(int a[], int n, int key) {
 	for (int i = 0; i < n; i++) {
 		if (a[i] == key)
