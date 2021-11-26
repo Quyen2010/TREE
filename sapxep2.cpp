@@ -141,7 +141,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> A[i];
 	}
-	cout << linearSearch(A, n, 11) << endl;
+	cout << linearSearch(A, n, 7) << endl;
 	QuickSort(A, 0, n - 1);
 	BubbleSort(A, n);
 	InsertionSort(A, n);
