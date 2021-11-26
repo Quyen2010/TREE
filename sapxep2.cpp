@@ -141,7 +141,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cin >> A[i];
 	}
-	cout << linearSearch(A, n, 8) << endl;
+	cout << linearSearch(A, n, 11) << endl;
 	QuickSort(A, 0, n - 1);
 	BubbleSort(A, n);
 	InsertionSort(A, n);
@@ -149,7 +149,7 @@ int main() {
 	for (int i = 0; i < n; i++) {
 		cout << A[i] << " ";
 	}
-	cout << binarySearch(A, n, 3) << endl;
+	cout << binarySearch(A, n, 5) << endl;
 	delete[] A;
 	return 0;
 }
