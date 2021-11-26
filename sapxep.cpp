@@ -99,6 +99,13 @@ int binarySearch(int a[], int n, int key) {
 	}
 	return -1;
 }
+/*
+	ten: nguyen thi quynh quyen 
+	mssv: 6151071091
+	ngay sinh: 20/10/2002
+	Email: 6151071091@st.utc2.edu.vn
+	ham main 
+*/
 int main() {
 	int A[100] = { 2,5,6,8,9,7,1,4,0,2 };
 	cout << linearSearch(A, 10, 8) << endl;
