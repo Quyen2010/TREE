@@ -7,8 +7,6 @@ using namespace std;
 	Email: 6151071091@st.utc2.edu.vn
 	ham swap
 */
-#include<iostream>
-using namespace std;
 void swap(int& a, int& b) {
 	int temp = a;
 	a = b;
